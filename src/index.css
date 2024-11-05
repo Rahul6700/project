@@ -1,5 +1,5 @@
-body {
-  background-image: url(image.png);
+html{
+  background-image: url(./image.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -20,21 +20,21 @@ body {
   background-color: #333;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
 }
 
-#login {
-  margin-left: 1000px;
+#login{
+  margin-left:auto;
 }
-
 #navbar h1 {
   padding-left: 30px;
 }
 
-#home{
-  margin-top: 200px;
-  justify-content: center;
+#home {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
